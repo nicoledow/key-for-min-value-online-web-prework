@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   #track min_value and key_of_min_value
   min_value = Float::INFINITY
-  key_of_smallest_value = ""
+  key_of_smallest_value = nil
   #iterate through hash
   name_hash.each do |key, value|
     #compare values to previous value
