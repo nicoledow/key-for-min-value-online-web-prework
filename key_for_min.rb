@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     if value < min_value
     #if current value is < min_value, reassign min_value and key_of_smallest_value
     min_value = value
-    key_of_smallest_value = key.to_s
+    key_of_smallest_value = key
     end
   end
   #return key of min value
